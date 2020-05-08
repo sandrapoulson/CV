@@ -1,0 +1,284 @@
+\documentclass[letterpaper]{article}
+% This is how I get spaces to stay in a URL
+\usepackage[obeyspaces]{url}
+\PassOptionsToPackage{obeyspaces}{url}
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+\usepackage[utf8]{inputenc} 
+\usepackage{fontawesome}
+\usepackage{tabularx} 
+\usepackage{xcolor} 
+\usepackage{ragged2e}
+
+\def\name{Sandra Jaramillo Poulson}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+%\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {neurobiology, stereotaxic surgery, neuroscience, biopsychology, behavioral psychology, behavioral neuroscience, biology, biotechnology, molecular technology, immunostaining, RNAscope, research, rodent, rodent models, mouse, mice, naked mole-rat, viral vector, DREADD, chemogenetics, optogenetics, channelrhodopsin, GCaMP, AAV, fiber photometry, calcium imaging, neural tracing, neurocircuitry},
+  pdftitle = {\name: Resume},
+  pdfsubject = {Resume},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.35\linewidth}
+  Department of Psychology \\
+  3359 Mississauga Road 1015DV \\
+  University of Toronto Mississauga\\
+  Mississauga, ON L5L 1C6, Canada \\
+  \end{minipage}
+\begin{minipage}{0.35\linewidth}
+  \begin{tabular}{ll}
+    \faPhone&(647) 544-6147 \\
+    \faEnvelopeO&\href{mailto:sandra.poulson@mail.utoronto.ca}{\tt sandra.poulson@mail.utoronto.ca} \\
+    \faGlobe &\href{https://painnerd.com}{painnerd.com} \\
+    \faGithub & \href{https://github.com/sandrapoulson}{github.com/sandrapoulson} \\
+    \faTwitter & \href{https://twitter.com/SocialPainNerd}{@SocialPainNerd}
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Academic Interests}
+My research focus is on the study neural circuits that drive behavior during the perception of pain in social companions. I have recently developed a mouse model of pain observation, based on a similar rat model of empathy, where I test for pain modulation after an observer mouse interacts with a demonstrator displaying overt pain behavior. My goal is to use this model to study the underlying neural circuitry using immunofluorescent techniques to compare receptor and protein activation, modulate behavior using DREADDs and optogenetics, and study neural function using GCaMP with fiber photometry. My research pursuit is impactful in terms of studying the neurobiological basis of sociability behavior (which in social mammals like humans is key behavior necessary to access resources) and empathy (or the ability to perceive and emulate states sensed in another), which can be disrupted through chronic drug abuse or in neuropsychiatric disorders like depression, schizophrenia and autism. These neuropsychiatric phenomena that affect sociability all can have varying comorbidity with abnormal pain conditions, which severely affect quality of life and burden health care systems. Through better understanding of the neural circuitry underlying the bidirectional modulation of pain and social interaction, new therapeutic targets can be tested with the goal of alleviating aberrant circuitry function in neuropsychiatric conditions and improving quality of life.
+
+
+\section*{Academic History}
+
+\subsection*{Academic Degrees}
+\begin{tabular}{llll}
+Expected 2022 & {\bf Doctor of Philosophy}		& University of Toronto, Canada \\
+& {Behavioral Psychology, Neuroscience}\\
+Sept 2018		& {\bf Master of Arts}		& University of Toronto, Canada \\
+& {Behavioral Psychology, Neuroscience}\\
+&Thesis title: \textit{Characterizing neuropathic pain}\\
+& \textit{in the naked mole-rat (Heterocephalus glaber)}\\
+May 2013         	& {\bf Master of Arts}			& University of Texas at Austin, USA \\
+& {Science Education}\\
+May 2011         	& {\bf Bachelor of Science}						& University of Texas at Austin, USA \\
+& {Biology}\\
+
+\end{tabular}
+
+
+\subsection*{Published Peer-reviewed Journal Articles}
+
+\begin{itemize}
+
+\item \textbf {Jaramillo, S. L.}, Mehlferber, E. and Moore, P. J. (2014), 
+\textit{Life-history trade-offs under different larval diets in Drosophila suzukii 
+(Diptera: Drosophilidae)}. Physiological Entomology. Vol 40. Iss 1. Pages 2-9.
+\href{http://onlinelibrary.wiley.com/doi/10.1111/phen.12082/full}{doi: 10.1111/phen.12082}
+\end{itemize}
+
+\subsection*{Submitted Journal Articles}
+
+\begin{itemize}
+
+\item Ramzan F, Hall M, Baumbach J, Wahdan M, \textbf {Poulson SJ}, Michailidis V, Stefanelli G, Narkaj K, Tao C, Creighton SD, Khan D, Steininger, Jr. C, Walters BJ, Monks AD, Martin LJ, Zovkic IB. (In submission),
+\textit{Histone H2A.Z is required for androgen receptor-mediated effects on fear memory in males and exerts sex-specific effects on fear memory and pain hypersensitivity in mice}.
+\end{itemize}
+
+\subsection*{In Preparation Journal Articles}
+
+\begin{itemize}
+
+\item \textbf {Poulson, SJ}, Martin, LJ (2019),
+\textit{African naked mole-rats lack cold sensitivity after nerve-injury}.
+\end{itemize}
+
+\subsection*{Peer-reviewed Conference Abstracts}
+
+\begin{itemize}
+\item \textbf {Poulson, SJ}, Holmes, MM and Martin, LJ (2019), 
+\textit{Characterizing neuropathic and nociceptive pain in the African naked mole-rat (Heterocephalus glaber)}. Research Poster Abstracts, Canadian Journal of Pain, Vol. 3 Iss. 1, pp. A73-A189. 
+\href{https://doi.org/10.1080/24740527.2019.1599266}{doi: 10.1080/24740527.2019.1599266}
+\end{itemize}
+
+\subsection*{Conference Posters}
+
+\begin{itemize}
+\item 
+Title: 826392 Observation of Social Companions in Pain Modulates the Pain Experience in Mice \\
+Authors: \textbf {Poulson, Sandra J.}, Arain, Iqra, Motlana, Keza, Martin, Loren J. \\
+Date and Location: June 28-July 2 2021 (delayed from Aug 2020) - International Association for the Study of Pain World Congress on Pain 2021 Amsterdam, Netherlands \\
+\\
+Title: Medial prefrontal cortex activity during pain observation of social familiars in mice \\
+Authors: \textbf {Poulson, Sandra J.}, Arain, Iqra, Martin, Loren J. \\
+Date and Location: October 17-18 2019 - Society for Social Neuroscience 10th Anniversary Chicago \\
+\\
+Title: Cold-Response is Reduced in the African Naked Mole-Rat \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: August 2-3 2019 - The Inaugural Montreal Conference on Pain Circuits \\
+\\
+Title: Characterizing neuropathic and nociceptive pain in the African naked mole-rat\\ (\textit{Heterocephalus glaber}) \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: June 5th, 2019 - CPIN Annual Research Day 2019 \\
+\\
+Title: Chronic and acute pain sensory system of the African naked mole-rat - Poster ID 121122 \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: May 22-25th, 2019 - 13th Annual Meeting Canadian Association for Neuroscience \\
+\\
+Title: Chronic and acute pain sensory system of the African naked mole-rat\\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: April 30th, 2019 - UTM Graduate Research Colloquium \\
+\\
+Title: Characterizing neuropathic and nociceptive pain in the African naked mole-rat\\ (\textit{Heterocephalus glaber}) \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: April 4th, 2019 - 40th Annual Meeting Canadian Pain Society \\
+\\
+Title: Characterizing pain behavior from nerve injury in a rodent that feels no spicy heat \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: June 14th, 2018 - CPIN Annual Research Day 2018 \\
+\\
+Title: Characterizing pain behavior from nerve injury in a rodent that feels no spicy heat \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: May 4th, 2018 - Cell \& Systems Biology Grad Research Day \\
+\\
+Title: Characterizing pain behavior from nerve injury in a rodent that feels no spicy heat \\
+Authors: \textbf {Poulson, Sandra J.}, Holmes, Melissa M., Martin, Loren J. \\
+Date and Location: April 30th, 2018 - UTM Graduate Research Colloquium \\
+
+\end{itemize}
+
+\subsection*{Research Awards}
+\begin{tabular}{lll}
+UTM Office of the VP, Acad. \& Dean Conf. Travel Grant	& Amount: \$500 CAD & Date: Sep 2019 \\
+UofT School of Graduate Studies Conference Travel Grant	& Amount: \$410 CAD & Date: Aug 2019 \\
+UTM Psychology Dept GEF Graduate Student Travel Grant & Amount: \$1800 CAD & Date: May 2019-Apr 2020 \\
+UTM Psychology Dept GEF Group Dev. Equip. Award	& Amount: \$1506.29 CAD & Date: Apr 2019 \\
+UTM Psychology Dept GEF Graduate StudentTravel Grant	& Amount: \$535.15 CAD & Date: Apr 2019 \\
+UTM Office of the VP, Acad. \& Dean Conf. Travel Grant	& Amount: \$400 CAD & Date: Mar 2019 \\
+UTM Psychology Dept GEF Group Dev. Equip. Award	& Amount: \$1405 CAD	& Date: Oct 2018 \\
+
+\end{tabular}
+
+\section*{Research Appointments - Experience}
+\begin{tabular}{llll}
+09/18 - curr.	& {\bf Graduate Research Assistant} 		& Martin Lab 			& University of Toronto \\
+09/17 - 09/18	& {\bf Graduate Research Assistant} 		& Holmes \& Martin Labs	& University of Toronto \\
+08/16 - 07/17 	& {\bf Life Sci.\ Research Profnl I (staff)}	& Rockson Lab			& Stanford University \\
+11/15 - 07/16 	& {\bf Life Sci.\ Research Profnl I (staff)}	& Xiaoke Chen Lab		& Stanford University \\
+10/14 - 11/15 	& {\bf Life Sci.\ Research Asst I (staff)}	& Xiaoke Chen Lab		& Stanford University \\
+07/13 - 07/14 	& {\bf Graduate Research Assistant}		& Trish Moore Lab		& University of Georgia \\
+08/08 - 05/09 	& {\bf Student Assistant}				& Media Kitchen		& University of Texas at Austin \\
+01/09 - 05/09 	& {\bf Undergrad Research Assistant}	& ICMB				& University of Texas at Austin \\
+05/07 - 05/08 	& {\bf Undergrad Research Assistant}	& Janice Fischer Lab		& University of Texas at Austin \\
+\end{tabular}
+
+
+%\section*{Relevant Skills}
+
+%\subsection*{Laboratory Skills}
+%\begin{tabular}{lll}
+%Mouse handling \& care 			&Trained in mouse husbandry		&Mouse aseptic surgery \\
+%African naked mole-rat handling 	&2 chamber CPP				&Spared Nerve Injury \\
+%Stereotaxic surgery 				&Anesthesia 					&Drug administration \\
+%Perfusion \& tissue prep 			&Cryosectioning 				&Immunohistochemistry \\
+%In-situ hybridization				&Light \& fluorescent microscopy	&Trained on confocal \\
+%Ear/tail DNA extraction 			&PCR	 					&Tail vein injections \\
+%Cannula and fiber placement 		&Optogenetics \& chemogenetics	&Immunohistochemistry \\
+%RNAscope					&Von Frey pain assay	 		&Tail pinch assay \\
+%Behavior protocol development 	&Microbial culture growth			&DNA plasmid purification \\
+%Cell culture (chicken, HEK239)		&Nucleic acid blotting			&ELISA \\
+%CL2 (viral) handling				&Video scoring 					&Chemical soln prep \\
+%\end{tabular}
+
+%\subsection*{Technology \& General Skills}
+%\begin{tabular}{lll}
+%Python				&Matlab						&Beginner Arduino coding \\
+%R 					&GraphPad Prism 				&LaTeX\\
+%Compliance monitoring	&Quartzy lab inventory management	&Data documentation\\
+%Grant writing			&Committed to professionalism		&Works independently \& on team\\
+%Mentoring new lab staff	&Strong interpersonal skills 		&Positivity \& tenacity \\
+%\end{tabular}
+
+\section*{Teaching Experience}
+
+\subsection*{Undergraduate Students Mentored In Research}
+\begin{tabular}{lll}
+Iqra Arain			&Project: Paper cap tube rescue in CD1 and C57 mice				&09/19 - current\\
+Rachel Riley 		&Project: Naked mole-rat nociceptive behavior scoring				&05/19 - 08/19\\
+Justine Ziolkowski	&Project: RNAscope staining for naked mole-rat probes				&06/18 - 03/19\\
+Careen Foord		&Project: \textit{in situ} hybridization in mouse brain for GAD1 and GAD2 &05/16 - 07/16 \\
+Meagan Wu		&Project: Social concern in wild type and Oprm1 knockout mice		&07/15 - 08/15 \\
+Eli Mehlferber		&Project: Does diet affect body size in the Spotted Wing Drosophila?	&07/13 - 05/14 \\
+\end{tabular}
+
+\subsection*{Classroom Teaching}
+\begin{tabular}{lll}
+Graduate Level: \\
+Teaching Assistant, BIO202H5S - Intro Animal Physiology  	& UTM     				& Spring 2019 \\
+Teaching Assistant, PSY391H5S - Psychology of Pain  		& UTM         			& Spring 2019 \\
+Teaching Assistant, PSY395H5F - Hormones and Behaviour	& UTM      			& Spring 2018 \\
+Teaching Assistant, BIO 311D Intro Biology II				& UT Austin			& Spring 2013 \\
+Teaching Assistant, BIO 311C Intro Biology I				& UT Austin			& Fall 2012 \\
+\\
+Pre-Graduate: \\
+UTeach Outreach Graduate Research Assistant			& UT Austin 			& Summer 2012 \\
+Graduate Teaching Assistant, Freshman Research Initiative	& UT Austin 			& Spring 2012 \\
+Apprentice Student Teacher- 8th Grade Earth Science		& Kealing Magnet MS	& Spring 2012 \\
+Tutor, UTeach Intern, Austin Urban Scholars (grades 6-8)		& Kealing Magnet MS 	& 01/11 - 05/11 \\
+Tutor, UTeach Intern (grades 8-12)						& Breakthrough Austin	& 09/10 - 12/10 \\
+\end{tabular}
+
+
+
+\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    %\href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
